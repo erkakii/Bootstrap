@@ -1,0 +1,40 @@
+.container{
+    height: 400px;
+    background-color: green;
+    width: 100%;
+}
+
+.fila1{
+    height: 100px;
+    background-color: blue;
+    width: 100%;
+}
+
+.fila2{
+    width: 60vw;
+    background-color: red;
+    height: 100px;
+}
+
+.columna1{
+
+    background-color: yellow;
+    width: 100%;
+}
+
+.columna2{
+
+    background-color: blueviolet;
+    width: 100%;
+}
+.orange{
+    background-color: #ffba2a;
+}
+
+.black{
+    background-color: black;
+}
+
+.random{
+    background-color: #ec22ff;
+}

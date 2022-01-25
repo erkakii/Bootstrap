@@ -1,10 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css-web/index.css">
+    <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-
+<!--Ejer1: Los contenedores ocupan las columnas que nosotros le hemos indicado
+Ejer2: Siguen igual hasta que llegan al tamaño asignado md en el que cada columna ocupa una fila
+Ejer 3: las demás columnas siguen ocupando 4 columnas y la columna auto se adapta lo que ocupa el texto
+Ejer 4: Se adaptan todas al contenido del texto
+Ejer 5: las columnas estan en auto hasta que la pantalla llega al tamaño de md que cada columna ocupa una fila entera
+como en el segundo apartado
+ -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-auto rojo">
+            maceta
+        </div>
+        <div class="col-md-auto verde">
+            maceta
+        </div>
+        <div class="col-md-auto naranja">
+            maceta
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4 morado"></div>
+        <div class="col-4 negro"></div>
+        <div class="col-4 azul"></div>
+    </div>
+</div>
 </body>
 </html>

@@ -1,0 +1,37 @@
+.container-fluid{
+    height: 400px;
+}
+
+.row{
+    height: 300px;
+}
+
+
+
+.rojo{
+    background-color: red;
+    height: 200px;
+}
+
+.verde{
+    background-color: green;
+    height: 200px;
+}
+
+.negro{
+    background-color: black;
+    height: 200px;
+}
+
+.azul{
+    background-color: blue;
+    height: 200px;
+}
+
+.amarillo{
+    background-color: yellow;
+}
+
+.naranja{
+    background-color: orange;
+}

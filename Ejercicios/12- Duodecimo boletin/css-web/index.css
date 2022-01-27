@@ -1,0 +1,26 @@
+*{
+    height: 100px;
+}
+
+.rojo{
+    background-color: red;
+}
+
+.verde{
+    background-color: green;
+}
+
+.negro{
+    background-color: black;
+}
+.naranja{
+    background-color: orange;
+}
+
+.violeta{
+    background-color: blueviolet;
+}
+
+.amarillo{
+    background-color: yellow;
+}

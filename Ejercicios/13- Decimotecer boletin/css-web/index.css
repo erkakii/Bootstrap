@@ -1,4 +1,8 @@
-*{
+.alto{
+    height: 200px;
+}
+
+.bajo{
     height: 100px;
 }
 

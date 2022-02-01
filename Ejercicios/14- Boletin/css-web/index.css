@@ -1,0 +1,27 @@
+*{
+    height: 100px;
+}
+
+.rojo{
+    background-color: red;
+}
+
+.verde{
+    background-color: green;
+}
+
+.negro{
+    background-color: yellow;
+}
+
+.truncate{
+    overflow:hidden;
+    line-height: 2rem;
+    max-height: 8rem;
+    -webkit-box-orient: vertical;
+    display: block;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+}
+
+

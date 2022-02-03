@@ -1,10 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css-web/index.css">
+    <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-$END$
+<!--Ejer 2: La imagen no se adapta al tamaño del contenedor en el que
+está contenida
+Ejer 3: La imagen se ajusta al tamaño del contenedor en el que está contenida
+-->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <img class="img-fluid img-thumbnail" src="superman.png" alt="superman">
+        </div>
+        <div class="col-4">
+            <figure class="figure">
+                <img class="figure-img img-fluid rounded" src="batman😎.png" alt="batman😎">
+                <figcaption class="figure-caption text-center">
+                    batman😎
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+</div>
 </body>
 </html>
